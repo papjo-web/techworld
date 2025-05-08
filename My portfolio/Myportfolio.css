@@ -1,0 +1,233 @@
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url(8010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+
+
+/*THIS IS MY PORTFOLIO NAVIGATION BAR*/
+
+.my_nav{
+    background: transparent  rgba(4, 4, 8, 0.06);
+
+    width: 100%;
+    height: 70px;
+position: sticky;
+top: 0;
+display: grid;
+grid-template-columns: auto auto auto;
+align-items: center;
+overflow: hidden;
+       
+}
+ 
+.img{
+    
+    width: 90px;
+    animation: appear 1s linear;
+}
+
+
+
+ul li{
+    
+    color: white;
+    display: inline-flex;
+    margin: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+   animation: appear 1s linear;
+   
+}
+
+
+li:hover{
+    
+    color: blue;
+}
+
+
+
+
+.resumebutton{
+    float: inline-end;
+    width: 90px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    border: hidden;
+    border-radius: 10px;
+    background: rgba(2, 2, 7, 0.2);
+    backdrop-filter: blue();
+    color: rgb(158, 219, 243);
+    font-weight: bolder;
+    cursor: pointer;
+    animation: appear 1s linear ;
+}
+
+.resumebutton:active{
+    transform: scale(110%);
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+/*THIS IS MY INTRODUCTION COMMENT*/
+
+.introduction{
+    margin: 50px;
+    
+}
+
+.introduction_content{
+    
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+/*THIS IS THE FIRSTLINE */
+
+.firstline{
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+span{
+    margin-left: 8px;
+  
+}
+
+.span1{
+    color: blueviolet; 
+     animation: color1 5s  linear infinite;
+    animation-timing-function: view();
+    animation-delay: 50ms;
+}
+
+@keyframes color1 {
+    0%{
+        color: green;
+    }
+
+   50%{
+       color: aqua;
+   }
+
+   100%{
+       color: red;
+   }
+}
+.span2{
+    color: green;
+    animation: color2 5s linear infinite;
+    animation-timing-function: view();
+    animation-delay: 50ms;
+    
+}
+
+@keyframes color2 {
+    0%{
+        color: purple;
+    }
+
+   50%{
+       color:red ;
+   }
+
+   100%{
+       color: aqua;
+   }
+}
+
+.span3{
+    color: rgb(218, 7, 35);
+    animation: color3 5s linear infinite;
+    animation-timing-function: view();
+    animation-delay: 500ms;
+    
+}
+
+@keyframes color3 {
+    0%{
+       color:green;
+    }
+
+   50%{
+      color: aqua;
+   }
+
+   100%{
+       color: purple;
+   }
+}
+
+/*THIS IS THE MY NAME THE SECONDLINE*/
+
+.secondline{
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 2.3em;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.myname{
+    color: crimson;
+    
+}
+
+
+/*THIS IS THE THIRDLINE OF MY CAPABILITY..*/
+
+
+.thirdline{
+    
+    margin-left: 20px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}  
+
+#mycv{
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(2, 15, 26, 0.6);
+    backdrop-filter: blue();
+     padding: 10px;
+     width: 200px;
+    color: rgb(76, 184, 247);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#mycv:active{
+    transform: scale(110%);
+
+}
+
+
+
+
